@@ -31,8 +31,8 @@ const game = () => {
         return;
       }
     }
-    console.log(`Congratulations, ${userName}!`);
   }
+  console.log(`Congratulations, ${userName}!`);
 };
 
 game();

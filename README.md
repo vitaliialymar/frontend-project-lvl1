@@ -3,4 +3,4 @@
 
 <a href="https://codeclimate.com/github/vitaliialymar/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/e2890269ea4bbd1094f2/maintainability" /></a>
 
-https://asciinema.org/a/UyB5VeidXndvk7oE6KvCPm4q4
+https://asciinema.org/a/505862
