@@ -5,8 +5,10 @@
 
 Игра №1: https://asciinema.org/a/505862
 
-Игра №2: https://asciinema.org/a/506608
+Игра №2: https://asciinema.org/a/506716
 
-Игра №3: https://asciinema.org/a/506683 
+Игра №3: https://asciinema.org/a/506717 
 
-Игра №4: https://asciinema.org/a/506697 
+Игра №4: https://asciinema.org/a/506718
+
+Игра №5: https://asciinema.org/a/506715
