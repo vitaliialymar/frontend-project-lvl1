@@ -2,6 +2,8 @@
 import readlineSync from 'readline-sync';
 import randomNumber from '../src/index.js';
 
+const isEven = (n) => n % 2 === 0;
+
 const game = () => {
   console.log('Welcome to the Brain Games!');
 
@@ -12,24 +14,14 @@ const game = () => {
   for (let i = 1; i <= 3; i += 1) {
     const num = randomNumber(0, 100);
     console.log(`Question: ${num}`);
+    const correctAnswer = isEven(num) ? 'yes' : 'no';
     const answer = readlineSync.question('You answer: ');
-    if (num % 2 === 0) {
-      if (answer === 'yes') {
-        console.log('Correct!');
-      } else {
-        console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes'.`);
-        console.log(`Let's try again, ${userName}!`);
-        return;
-      }
-    }
-    if (num % 2 !== 0) {
-      if (answer === 'no') {
-        console.log('Correct!');
-      } else {
-        console.log(`'${answer}' is wrong answer ;(. Correct answer was 'no'.`);
-        console.log(`Let's try again, ${userName}!`);
-        return;
-      }
+    if (correctAnswer === answer.toString()) {
+      console.log('Correct!');
+    } else {
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(`Let's try again, ${userName}!`);
+      return;
     }
   }
   console.log(`Congratulations, ${userName}!`);
