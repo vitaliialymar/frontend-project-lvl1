@@ -17,8 +17,8 @@ const game = () => {
   };
 
   for (let i = 1; i <= 3; i += 1) {
-    const num = randomNumber();
-    const num2 = randomNumber();
+    const num = randomNumber(0, 100);
+    const num2 = randomNumber(0, 100);
     console.log(`Question: ${num} ${num2}`);
     const correctAnswer = node(num, num2);
     const answer = readlineSync.question('You answer: ');

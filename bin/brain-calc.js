@@ -13,8 +13,8 @@ const game = () => {
   const operator = ['+', '-', '*'];
 
   for (let i = 1; i <= 3; i += 1) {
-    const num = randomNumber();
-    const num2 = randomNumber();
+    const num = randomNumber(0, 100);
+    const num2 = randomNumber(0, 100);
     const randomOperator = operator[Math.floor(Math.random() * operator.length)];
     console.log(`Question: ${num} ${randomOperator} ${num2}`);
     let correctAnswer;

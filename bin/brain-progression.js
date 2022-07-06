@@ -19,9 +19,9 @@ const game = () => {
   console.log('What number is missing in the progression?');
 
   for (let i = 1; i <= 3; i += 1) {
-    const num = randomNumber();
-    const progStep = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
-    const progLength = Math.floor(Math.random() * (10 - 5 + 1)) + 5;
+    const num = randomNumber(0, 100);
+    const progStep = randomNumber(1, 10);
+    const progLength = randomNumber(5, 10);
     const gameProgression = randomProgression(num, progStep, progLength);
     const randIndex = Math.floor(Math.random() * gameProgression.length);
 
