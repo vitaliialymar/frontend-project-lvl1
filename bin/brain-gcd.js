@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable default-case */
 import readlineSync from 'readline-sync';
 import randomNumber from '../src/index.js';
 
@@ -8,27 +7,20 @@ const game = () => {
 
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
-  console.log('What is the result of the expression?');
+  console.log('Find the greatest common divisor of given numbers.');
 
-  const operator = ['+', '-', '*'];
+  const node = (a, b) => {
+    if (!b) {
+      return a;
+    }
+    return node(b, a % b);
+  };
 
   for (let i = 1; i <= 3; i += 1) {
     const num = randomNumber();
     const num2 = randomNumber();
-    const randomOperator = operator[Math.floor(Math.random() * operator.length)];
-    console.log(`Question: ${num} ${randomOperator} ${num2}`);
-    let correctAnswer;
-    switch (randomOperator) {
-      case '+':
-        correctAnswer = num + num2;
-        break;
-      case '-':
-        correctAnswer = num - num2;
-        break;
-      case '*':
-        correctAnswer = num * num2;
-        break;
-    }
+    console.log(`Question: ${num} ${num2}`);
+    const correctAnswer = node(num, num2);
     const answer = readlineSync.question('You answer: ');
     if (answer === correctAnswer.toString()) {
       console.log('Correct!');

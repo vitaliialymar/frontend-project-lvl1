@@ -6,3 +6,5 @@
 Игра №1: https://asciinema.org/a/505862
 
 Игра №2: https://asciinema.org/a/506608
+
+Игра №3: https://asciinema.org/a/506683 
