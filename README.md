@@ -3,7 +3,7 @@
 
 <a href="https://codeclimate.com/github/vitaliialymar/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/e2890269ea4bbd1094f2/maintainability" /></a>
 
-<h1>Wellcome to Brain Games!</h1>
+<h1>Welcome to the Brain Games!</h1>
 
 <h2>Setup</h2>
 
