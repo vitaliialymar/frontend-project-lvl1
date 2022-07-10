@@ -8,7 +8,7 @@
 <h2>Setup</h2>
 
 1. Clone this repository with 'git clone git@github.com:vitaliialymar/frontend-project-lvl1.git' command;
-2. Add depencies with 'make install' command;
+2. Use 'make install' command;
 3. And use 'npm link' command.
 
 <h3>Start game with 'make game-name' or 'game-name' command.</h3>
