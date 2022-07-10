@@ -3,12 +3,32 @@
 
 <a href="https://codeclimate.com/github/vitaliialymar/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/e2890269ea4bbd1094f2/maintainability" /></a>
 
-Игра №1: [![asciicast](https://asciinema.org/a/505862.svg)](https://asciinema.org/a/505862)
+<h1>Wellcome to Brain Games!</h1>
 
-Игра №2: [![asciicast](https://asciinema.org/a/506716.svg)](https://asciinema.org/a/506716)
+<h2>Setup</h2>
 
-Игра №3: [![asciicast](https://asciinema.org/a/506717.svg)](https://asciinema.org/a/506717)
+1. Clone this repository with 'git clone git@github.com:vitaliialymar/frontend-project-lvl1.git' command;
+2. Add depencies with 'make install' command;
+3. And use 'npm link' command.
 
-Игра №4: [![asciicast](https://asciinema.org/a/506718.svg)](https://asciinema.org/a/506718)
+<h3>Start game with 'make game-name' or 'game-name' command.</h3>
 
-Игра №5: [![asciicast](https://asciinema.org/a/506715.svg)](https://asciinema.org/a/506715)
+Game №1: brain-even
+
+[![asciicast](https://asciinema.org/a/505862.svg)](https://asciinema.org/a/505862)
+
+Game №2: brain-calc
+
+[![asciicast](https://asciinema.org/a/506716.svg)](https://asciinema.org/a/506716)
+
+Game №3: brain-gcd
+
+[![asciicast](https://asciinema.org/a/506717.svg)](https://asciinema.org/a/506717)
+
+Game №4: brain-progression
+
+[![asciicast](https://asciinema.org/a/506718.svg)](https://asciinema.org/a/506718)
+
+Game №5: brain-prime
+
+[![asciicast](https://asciinema.org/a/506715.svg)](https://asciinema.org/a/506715)
